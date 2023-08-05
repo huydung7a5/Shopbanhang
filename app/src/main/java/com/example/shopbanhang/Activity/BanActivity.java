@@ -22,7 +22,7 @@ public class BanActivity extends AppCompatActivity {
      RecyclerView recyclerView1;
      private ArrayList<Ban> list1;
      BanAdapter banAdapter1;
-
+// 123 test
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

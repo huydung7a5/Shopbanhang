@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+
+    android:gravity="center"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/txtHeaderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="Trang của Admin"
+        android:textColor="#9d6855"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Địa chỉ email"
+        android:textColor="#9d6855"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtHeaderName" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="Quản lý App"
+            android:textColor="#D2000000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

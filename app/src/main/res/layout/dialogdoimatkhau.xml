@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/edtmatkhaucu"
+        android:layout_width="match_parent"
+        android:hint="Mật khẩu Cũ"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtmatkhaumoi"
+        android:layout_width="match_parent"
+        android:hint="Mật khẩu Mới"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtnhaplaimatkhau"
+        android:layout_width="match_parent"
+        android:hint="Nhập lại mật khẩu mới"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btndoimatkhau"
+        android:text="Đổi mật khẩu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/txtuser"
+        android:textSize="20sp"
+        android:text="Tên tài khoản"
+        android:textStyle="bold"
+        android:textColor="#7C2C2C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/txtpass"
+        android:textSize="20sp"
+        android:text="Mật khẩu"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/txtphanquyen"
+        android:textSize="20sp"
+        android:text="Phân Quyền"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnedit"
+            android:text="Sửa"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btndelete"
+            android:text="Xóa"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>
